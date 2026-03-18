@@ -20,7 +20,7 @@
 html { font-size: 16px; }
 
 body {
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    font-family: system-ui, -apple-system, sans-serif;
     --s: 150px;
     --_g:
         var(--bg) 0% 5%, #454037 6% 15%, var(--bg) 16% 25%, #454037 26% 35%, var(--bg) 36% 45%,
@@ -134,7 +134,7 @@ body {
 }
 
 .card-quote {
-    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+    font-family: ui-serif, Georgia, serif;
     font-size: 1.35rem;
     font-style: italic;
     line-height: 1.8;
@@ -157,7 +157,7 @@ body {
 }
 
 .card-answer {
-    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+    font-family: ui-serif, Georgia, serif;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text);
@@ -177,7 +177,7 @@ body {
     padding: 12px 16px;
     background: var(--text);
     color: var(--bg);
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    font-family: system-ui, -apple-system, sans-serif;
     font-size: 0.82rem;
     font-weight: 400;
     font-style: normal;
